@@ -1,0 +1,55 @@
+body {
+    background-color: #202020;
+    margin: 0;
+}
+.square {
+	height: auto;
+	width: 100vw;
+    margin: auto;
+    position: relative;
+}
+.red {
+    background-color:red;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    z-index: 1;
+    position: absolute;
+}
+.yellow {
+    background-color:yellow;
+    animation-name: fadeIn;
+    animation-duration: 20s;
+    animation-fill-mode: forwards;
+    z-index: 1;
+    position:absolute;
+}
+.blue {
+    background-color:blue;
+    animation-name: fadeIn;
+    animation-duration: 40s;
+    animation-fill-mode: forwards;
+    z-index: 1;
+    position: absolute;
+}
+.purple {
+    background-color:purple;
+    animation-name: fadeIn;
+    animation-duration: 60s;
+    animation-fill-mode: forwards;
+    z-index: 1;
+    position: absolute;
+}
+.green {
+    background-color:green;
+    animation-name: fadeIn;
+    animation-duration: 80s;
+    animation-fill-mode: forwards;
+    z-index: 1;
+    position: absolute;
+}
+@keyframes fadeIn { 
+    0% { opacity: 0; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
