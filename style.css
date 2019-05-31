@@ -9,7 +9,7 @@ body {
     position: relative;
 }
 .red {
-    background-color:red;
+    background-color:#202020;
     animation-name: fadeIn;
     animation-duration: 1s;
     animation-fill-mode: forwards;
